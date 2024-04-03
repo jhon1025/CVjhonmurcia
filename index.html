@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+</head>
+<body>
+
+<main class="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
+    <section class="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
+        <div class="flex items-center justify-between">
+            <div class="flex-1 space-y-1.5">
+                <h1 class="text-2xl font-bold">Jhon Murcia</h1>
+                <p class="max-w-md text-pretty font-mono  text-sm text-muted-foreground">Frontend Developer y experto en Facebook Ads, especializado en impulsar el crecimiento de marca a través de soluciones digitales innovadoras y detalladas.</p>
+                <p class="text-muted-foreground">
+                    <a href="https://maps.app.goo.gl/VKApF8SMPw136gKz5">Cali, Colombia</a>
+                </p>
+            </div>
+            
+            <div class="flex-shrink-0">
+                <img src="./Copia de jhonMurcia.jpeg" alt="Jhon Murcia" class="h-28 w-28 rounded-lg">
+            </div>
+        </div>
+         <!-- Barra de redes sociales -->
+    <div class="flex  space-x-5" style="margin-top: 1rem;">
+        
+
+        <a href="https://www.youtube.com/@_jhonmurcia" target="_blank">
+          <svg class="w-6 h-6 cursor-pointer text-gray-400 hover:text-[#FF0000] fill-current" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <title>YouTube</title>
+            <path
+              d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+          </svg>
+        </a>
+  
+        <a href="https://github.com/jhon1025" target="_blank">
+          <svg class="w-6 h-6 cursor-pointer text-gray-400 hover:text-[#6e5494] fill-current"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+          </svg>
+        </a>
+  
+        <a href="https://www.instagram.com/_jhonmurcia/" target="_blank">
+          <svg class="w-6 h-6 cursor-pointer text-gray-400 hover:text-[#E4405F] fill-current" role="img"
+            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <title>Instagram</title>
+            <path
+              d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+          </svg>
+        </a>
+  
+        <a href="https://twitter.com/gndx" target="_blank">
+          <svg class="w-6 h-6 cursor-pointer text-gray-400 hover:text-blue-300 fill-current"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+              d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+          </svg>
+        </a>
+  
+        <a href="https://www.linkedin.com/in/jhon-murcia-b499b5209/" target="_blank">
+          <svg class="w-6 h-6 cursor-pointer text-gray-400 hover:text-blue-500 fill-current"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path
+              d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+            </path>
+          </svg>
+        </a>
+        
+      </div>
+    </section>
+
+    <section class="mx-auto mt-12 w-full max-w-2xl space-y-8 bg-white print:space-y-6">
+        <div class="space-y-4">
+            <h2 class="text-xl font-bold">About</h2>
+            <p class="lg:max-w-none text-pretty font-mono text-sm text-muted-foreground">Soy un apasionado desarrollador frontend, especializado en el ámbito de la tecnología y la innovación digital. Mi expertise se centra en la optimización de estrategias de Facebook Ads y en el desarrollo web avanzado, utilizando tecnologías líderes como HTML, CSS, Tailwind CSS, y Shopify.</p>
+            <p class="lg:max-w-none text-pretty font-mono text-sm text-muted-foreground">A lo largo de los últimos 5 años, he jugado un papel crucial en el escalado de ventas de diversas empresas y en el lanzamiento de proyectos personales, mejorando significativamente las experiencias de usuario. He liderado la implementación de campañas publicitarias de alto impacto, demostrando un compromiso constante con el crecimiento y la excelencia en todos los proyectos que emprendo.</p>
+
+
+        </div>
+    </section>
+
+
+
+    <section class="mx-auto mt-12 w-full max-w-2xl space-y-8 bg-white print:space-y-6">
+        <div class="space-y-4">
+            <h2 class="text-xl font-bold">Work Experience</h2>
+            
+            <!-- Media Advertising -->
+            <div class="border-t pt-4">
+                <h3 class="text-lg font-semibold">Media Advertising</h3>
+                <p class="text-sm text-pretty font-mono text-gray-700">Jornada Completa</p>
+                <p class="text-sm text-pretty font-monotext-gray-700">2021 - 2022</p>
+                <p class="text-sm  text-pretty font-mono text-gray-700">Trafficker Digital</p>
+                <p class="text-sm text-pretty font-mono text-gray-700">Implementé campañas de Facebook Ads para diversas marcas gestionadas por la agencia, contribuyendo significativamente al aumento de su visibilidad y engagement en línea.
+                    Participé activamente en el proceso creativo de los video ads, aportando ideas innovadoras y desarrollando speechs que resonaron con el público objetivo, mejorando así el impacto y la efectividad de las campañas.</p>
+            </div>
+            
+            <!-- Missmufit -->
+            <div class="border-t pt-4">
+                <h3 class="text-lg font-semibold">Missmufit</h3>
+                <p class="text-sm text-pretty font-mono text-gray-700">Freelance</p>
+                <p class="text-sm  text-pretty font-mono text-gray-700">2021 - 2024</p>
+                <p class="text-sm text-pretty font-mono text-gray-700">Trafficker Digital y Consultor Shopify</p>
+                <p class="text-sm text-pretty font-mono text-gray-700">Implementé campañas de Facebook Ads, mejorando la visibilidad y las ventas en línea. Colaboré en la mejora de la experiencia de usuario en Shopify, trabajando junto a programadores y agencias creativas para el desarrollo de video ads.</p>
+            </div>
+            
+            <!-- Voga Modelos -->
+            <div class="border-t pt-4">
+                <h3 class="text-lg font-semibold">Voga Modelos</h3>
+                <p class="text-sm  text-pretty font-mono text-gray-700">Freelance</p>
+                <p class="text-sm  text-pretty font-mono text-gray-700">2022 - 2024</p>
+                <p class="text-sm  text-pretty font-mono text-gray-700">Trafficker Digital</p>
+                <p class="text-sm text-pretty font-mono text-gray-700">Implementé campañas de Facebook Ads y contribuí en la creación de contenido para videos publicitarios, impulsando el crecimiento y la presencia de la marca.</p>
+            </div>
+            
+            <!-- MW -->
+            <div class="border-t pt-4">
+                <h3 class="text-lg font-semibold">MW</h3>
+                <p class="text-sm text-pretty font-mono text-gray-700">Freelance</p>
+                <p class="text-sm text-pretty font-mono text-gray-700">2021 - 2023</p>
+                <p class="text-sm text-pretty font-mono text-gray-700">Desarrollador Web y Trafficker Digital</p>
+                <p class="text-sm text-pretty font-mono text-gray-700">Realicé campañas de Facebook Ads, creé y edité videos publicitarios, y desarrollé la página web de la marca en Shopify.</p>
+            </div>
+            
+            <!-- Mi Diario Financiero -->
+            <div class="border-t pt-4">
+                <h3 class="text-lg font-semibold">Mi Diario Financiero</h3>
+                <p class="text-sm  text-pretty font-mono text-gray-700">Freelance</p>
+                <p class="text-sm text-pretty font-mono text-gray-700">2021 - 2022</p>
+                <p class="text-sm text-pretty font-mono text-gray-700">Especialista en Facebook Ads</p>
+                <p class="text-sm text-pretty font-mono text-gray-700">Implementé campañas de Facebook Ads y colaboré en la creación de contenido creativo para videos publicitarios, aportando ideas y speechs para mejorar la efectividad de las campañas.</p>
+            </div>
+            
+        </div>
+    </section>
+    
+
+    
+
+
+
+    
+    
+
+    <section class="mx-auto mt-12 w-full max-w-2xl space-y-8 bg-white print:space-y-6">
+        <div class="space-y-4">
+            <h2 class="text-xl font-bold">Skills</h2>
+            <div class="flex flex-wrap gap-1">
+                <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-black text-white hover:bg-gray-800">
+                    Facebook Ads
+                </div>
+                <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-black text-white hover:bg-gray-800">
+                    JavaScript
+                </div>
+                <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-black text-white hover:bg-gray-800">
+                    HTML
+                </div>
+                <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-black text-white hover:bg-gray-800">
+                    CSS
+                </div>
+                <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-black text-white hover:bg-gray-800">
+                    Tailwind CSS
+                </div>
+                <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-black text-white hover:bg-gray-800">
+                    TypeScript
+                </div>
+                <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-black text-white hover:bg-gray-800">
+                    React/Next.js/Remix
+                </div>
+                <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-black text-white hover:bg-gray-800">
+                    Node.js
+                </div>
+                <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-black text-white hover:bg-gray-800">
+                    GraphQL
+                </div>
+                <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-black text-white hover:bg-gray-800">
+                    Relay
+                </div>
+                <div class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-black text-white hover:bg-gray-800">
+                    WebRTC
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+   
+
+    <section class="mx-auto mt-12 w-full max-w-2xl space-y-8 bg-white print:space-y-6">
+        <div class="space-y-4">
+            <h2 class="text-xl font-bold">Me siento muy orgulloso de haber trabajado con estas increíbles marcas</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Cliente 1 -->
+                <div class="p-6 bg-gray-100 rounded-lg">
+                    <a href="https://www.instagram.com/miss_mufit/" target="_blank">
+                        <img src="./Copia de missmufit.webp" alt="Cliente A" class="w-full h-auto filter grayscale hover:filter-none transition duration-300">
+                    </a>
+                </div>
+                
+                <!-- Cliente 2 -->
+                <div class="p-6 bg-gray-100 rounded-lg">
+                    <a href="https://www.instagram.com/vogamodelos/" target="_blank">
+                        <img src="./Copia de Logo-Voga-Academia-01-negro.png" alt="Cliente B" class="w-full h-auto filter grayscale hover:filter-none transition duration-300">
+                    </a>
+                </div>
+    
+                <!-- Cliente 3 -->
+                <div class="p-6 bg-gray-100 rounded-lg">
+                    <a href="https://www.instagram.com/midiariofinanciero/" target="_blank">
+                        <img src="https://midiariofinanciero.com/wp-content/uploads/2022/08/Logo-Mi-diario-financiero.svg" alt="Cliente C" class="w-full h-auto filter grayscale hover:filter-none transition duration-300">
+                    </a>
+                </div>
+    
+                <!-- Cliente 4 -->
+                <div class="p-6 bg-gray-100 rounded-lg">
+                    <a href="https://www.instagram.com/mw.international/" target="_blank">
+                        <img src="./mw.png" alt="Cliente D" class="w-full h-auto filter grayscale hover:filter-none transition duration-300">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mx-auto mt-12 w-full max-w-2xl space-y-8 bg-white print:space-y-6">
+        <h2 class="text-xl font-bold">Certificaciones y Cursos</h2>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./diploma-frontend-developer_page-0001.jpg" alt="Certificado frontend-developer ">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./diploma-mobile-first_page-0001.jpg" alt="Certificado maquetacion mobile first">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./diploma-basico-ui_page-0001.jpg" alt="Certificado ui basico">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./diploma-web-chatgpt_page-0001.jpg" alt="Certificado creacion de paginas web con chatgpt">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./diploma-estrategia-tiktok_page-0001.jpg" alt="Certificado tiktok estrategias">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./diploma-estrategia-ventas_page-0001.jpg" alt="Certificado estrategias de ventas">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./diploma-marcapersonalinstagram_page-0001.jpg" alt="Certificado marca personal en instagram">
+                </div>
+                
+                
+                
+                <div class="swiper-slide">
+                    <img src="./diploma-chatgpt_page-0001.jpg" alt="Certificado prompt engineering chatgpt">
+                </div>
+                <!-- Más slides aquí -->
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="mx-auto mt-12 w-full max-w-2xl space-y-8 bg-white print:space-y-6">
+        <h2 class="text-xl font-bold">Contacto</h2>
+        <div class="space-y-4">
+            <p class="text-sm text-pretty font-mono text-gray-700">Para oportunidades de trabajo o consultas, puedes contactarme a través de:</p>
+            <div class="space-y-2">
+                <p class="text-sm text-pretty font-mono text-gray-700">Correo: jhonoficina@gmail.com</p>
+                <p class="text-sm text-pretty font-mono text-gray-700">WhatsApp: +57 123 456 7890 🇨🇴</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+
+ 
+      
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+</main>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  var mySwiper = new Swiper('.mySwiper', {
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    // Opciones adicionales aquí si es necesario
+  });
+</script>
+
+</body>
+
+</html>
